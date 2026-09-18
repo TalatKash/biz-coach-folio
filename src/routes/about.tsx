@@ -61,7 +61,7 @@ export function About() {
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-20 pt-14 sm:px-8 md:grid-cols-2">
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-clay">About</p>
-          <h1 className="mt-2 text-4xl font-semibold leading-tight sm:text-5xl">
+          <h1 className="mt-2 text-4xl font-bold leading-tight sm:text-5xl">
             One developer, <span className="font-serif italic text-primary">fully</span> on your side.
           </h1>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
@@ -106,7 +106,7 @@ export function About() {
 
       <section className="border-y border-border/70 bg-card">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-          <h2 className="text-2xl font-semibold">Toolbox</h2>
+          <h2 className="text-2xl font-bold">Toolbox</h2>
           <ul className="mt-6 flex flex-wrap gap-2.5">
             {skills.map((skill) => (
               <li
@@ -124,14 +124,14 @@ export function About() {
         <p className="text-xs font-semibold uppercase tracking-widest text-clay">
           How I work
         </p>
-        <h2 className="mt-2 text-3xl font-semibold">Four promises, kept</h2>
+        <h2 className="mt-2 text-3xl font-bold">Four promises, kept</h2>
         <div className="mt-10 grid gap-5 sm:grid-cols-2">
           {values.map((v) => (
             <div
               key={v.title}
               className="rounded-xl border border-border/70 bg-card p-6 shadow-soft"
             >
-              <h3 className="font-semibold">{v.title}</h3>
+              <h3 className="font-bold">{v.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{v.desc}</p>
             </div>
           ))}

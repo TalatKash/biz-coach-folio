@@ -115,7 +115,7 @@ export function SiteFooter() {
           </p>
         </div>
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
             Pages
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm">
@@ -129,7 +129,7 @@ export function SiteFooter() {
           </ul>
         </div>
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
             Platforms
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
