@@ -115,7 +115,7 @@ export function Services() {
     <>
       <section className="mx-auto max-w-6xl px-5 pb-16 pt-14 sm:px-8">
         <p className="text-xs font-semibold uppercase tracking-widest text-clay">Services</p>
-        <h1 className="mt-2 max-w-2xl text-4xl font-semibold leading-tight sm:text-5xl">
+        <h1 className="mt-2 max-w-2xl text-4xl font-bold leading-tight sm:text-5xl">
           The right platform, built <span className="font-serif italic text-primary">properly</span>.
         </h1>
         <p className="mt-5 max-w-xl text-muted-foreground">
@@ -132,7 +132,7 @@ export function Services() {
               className="flex flex-col rounded-xl border border-border/70 bg-card p-6 shadow-soft"
             >
               <div className="flex items-center justify-between gap-3">
-                <h2 className="text-lg font-semibold">{s.title}</h2>
+                <h2 className="text-lg font-bold">{s.title}</h2>
                 {s.flagship && (
                   <span className="shrink-0 rounded-full bg-accent px-2 py-0.5 text-[11px] font-semibold text-accent-foreground">
                     Specialty
@@ -158,7 +158,7 @@ export function Services() {
           <p className="text-xs font-semibold uppercase tracking-widest text-clay">
             Typical budgets
           </p>
-          <h2 className="mt-2 text-3xl font-semibold">Simple, fixed pricing</h2>
+          <h2 className="mt-2 text-3xl font-bold">Simple, fixed pricing</h2>
           <p className="mt-3 max-w-lg text-sm text-muted-foreground">
             Every project gets a fixed quote after a short call — you always know
             the full cost before work begins.
@@ -176,7 +176,7 @@ export function Services() {
                     Most popular
                   </span>
                 )}
-                <h3 className="mt-3 font-semibold">{pkg.name}</h3>
+                <h3 className="mt-3 font-bold">{pkg.name}</h3>
                 <p className="mt-1 font-heading text-2xl font-semibold text-primary">{pkg.price}</p>
                 <p className="mt-1 text-xs text-muted-foreground">{pkg.for}</p>
                 <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
@@ -194,7 +194,7 @@ export function Services() {
       </section>
 
       <section className="mx-auto max-w-3xl px-5 py-20 text-center sm:px-8">
-        <h2 className="text-3xl font-semibold">Not sure which platform you need?</h2>
+        <h2 className="text-3xl font-bold">Not sure which platform you need?</h2>
         <p className="mt-3 text-muted-foreground">
           Send me your goals and budget — I'll recommend honestly, even if the
           answer is a cheaper option than you expected.

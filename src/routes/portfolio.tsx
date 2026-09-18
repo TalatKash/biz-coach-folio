@@ -49,7 +49,7 @@ export function Portfolio() {
     <>
       <section className="mx-auto max-w-6xl px-5 pb-16 pt-14 sm:px-8">
         <p className="text-xs font-semibold uppercase tracking-widest text-clay">Portfolio</p>
-        <h1 className="mt-2 max-w-2xl text-4xl font-semibold leading-tight sm:text-5xl">
+        <h1 className="mt-2 max-w-2xl text-4xl font-bold leading-tight sm:text-5xl">
           Recent <span className="font-serif italic text-primary">work</span>.
         </h1>
         <p className="mt-5 max-w-xl text-muted-foreground">
@@ -82,7 +82,7 @@ export function Portfolio() {
                   </span>
                   <span className="text-xs text-muted-foreground">{p.clientType}</span>
                 </div>
-                <h2 className="mt-3 text-lg font-semibold">{p.title}</h2>
+                <h2 className="mt-3 text-lg font-bold">{p.title}</h2>
                 <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{p.summary}</p>
                 <p className="mt-4 border-t border-border/70 pt-3 text-sm font-semibold text-primary">
                   {p.result}
@@ -98,7 +98,7 @@ export function Portfolio() {
           <p className="text-xs font-semibold uppercase tracking-widest text-clay">
             Kind words
           </p>
-          <h2 className="mt-2 text-3xl font-semibold">What clients say</h2>
+          <h2 className="mt-2 text-3xl font-bold">What clients say</h2>
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {testimonials.map((t) => (
               <figure
@@ -119,7 +119,7 @@ export function Portfolio() {
       </section>
 
       <section className="mx-auto max-w-3xl px-5 py-20 text-center sm:px-8">
-        <h2 className="text-3xl font-semibold">Your project could be next.</h2>
+        <h2 className="text-3xl font-bold">Your project could be next.</h2>
         <p className="mt-3 text-muted-foreground">
           Tell me what you're building — I'll come back with a plan and a fixed
           price within one business day.

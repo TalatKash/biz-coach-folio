@@ -37,7 +37,7 @@ export function Contact() {
             <p className="text-xs font-semibold uppercase tracking-widest text-clay">
               Contact
             </p>
-            <h1 className="mt-2 text-4xl font-semibold leading-tight sm:text-5xl">
+            <h1 className="mt-2 text-4xl font-bold leading-tight sm:text-5xl">
               Let's talk about your{" "}
               <span className="font-serif italic text-primary">project</span>.
             </h1>
@@ -92,7 +92,7 @@ export function Contact() {
                     />
                   </svg>
                 </div>
-                <h2 className="mt-5 text-xl font-semibold">Message received</h2>
+                <h2 className="mt-5 text-xl font-bold">Message received</h2>
                 <p className="mt-2 max-w-sm text-sm text-muted-foreground">
                   Thanks for reaching out. You'll hear back from me within one
                   business day — usually sooner.

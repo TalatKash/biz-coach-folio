@@ -39,7 +39,7 @@ function Index() {
             <span className="h-1.5 w-1.5 rounded-full bg-clay" />
             Freelance web developer
           </p>
-          <h1 className="animate-rise-delayed mt-5 text-4xl font-semibold leading-[1.12] sm:text-5xl">
+          <h1 className="animate-rise-delayed mt-5 text-4xl font-bold leading-[1.12] sm:text-5xl">
             Websites that quietly{" "}
             <span className="font-serif italic text-primary">grow</span> your
             business.
@@ -125,7 +125,7 @@ function Index() {
             <p className="text-xs font-semibold uppercase tracking-widest text-clay">
               What I do
             </p>
-            <h2 className="mt-2 text-3xl font-semibold">Services, without the jargon</h2>
+            <h2 className="mt-2 text-3xl font-bold">Services, without the jargon</h2>
           </div>
           <Link
             to="/services"
@@ -153,7 +153,7 @@ function Index() {
               key={s.title}
               className="rounded-xl border border-border/70 bg-card p-6 shadow-soft transition-shadow hover:shadow-lift"
             >
-              <h3 className="text-lg font-semibold">{s.title}</h3>
+              <h3 className="text-lg font-bold">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
             </div>
           ))}
@@ -171,7 +171,7 @@ function Index() {
               <p className="text-xs font-semibold uppercase tracking-widest text-clay">
                 Recent work
               </p>
-              <h2 className="mt-2 text-3xl font-semibold">Quiet sites, loud results</h2>
+              <h2 className="mt-2 text-3xl font-bold">Quiet sites, loud results</h2>
             </div>
             <Link
               to="/portfolio"
@@ -201,7 +201,7 @@ function Index() {
                   <p className="text-xs font-semibold uppercase tracking-widest text-clay">
                     {p.platform}
                   </p>
-                  <h3 className="mt-1.5 font-semibold">{p.title}</h3>
+                  <h3 className="mt-1.5 font-bold">{p.title}</h3>
                   <p className="mt-1 text-sm text-muted-foreground">{p.clientType}</p>
                 </div>
               </Link>
@@ -216,7 +216,7 @@ function Index() {
       {/* Process */}
       <section className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
         <p className="text-xs font-semibold uppercase tracking-widest text-clay">How we work</p>
-        <h2 className="mt-2 text-3xl font-semibold">A calm, predictable process</h2>
+        <h2 className="mt-2 text-3xl font-bold">A calm, predictable process</h2>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[
             ["01", "Discover", "A short call to understand your business, audience and goals."],
@@ -226,7 +226,7 @@ function Index() {
           ].map(([num, title, desc]) => (
             <div key={num} className="rounded-xl border border-border/70 bg-card p-6 shadow-soft">
               <span className="font-serif text-2xl italic text-clay">{num}</span>
-              <h3 className="mt-3 font-semibold">{title}</h3>
+              <h3 className="mt-3 font-bold">{title}</h3>
               <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{desc}</p>
             </div>
           ))}
@@ -248,7 +248,7 @@ function Index() {
       {/* CTA */}
       <section className="bg-primary">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-5 py-16 text-center sm:px-8">
-          <h2 className="text-3xl font-semibold text-primary-foreground">
+          <h2 className="text-3xl font-bold text-primary-foreground">
             Ready when you are.
           </h2>
           <p className="max-w-md text-sm leading-relaxed text-primary-foreground/80">
