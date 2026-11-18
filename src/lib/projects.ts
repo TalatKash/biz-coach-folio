@@ -1,73 +1,66 @@
-import meridian from "@/assets/work-meridian.jpg";
-import haven from "@/assets/work-haven.jpg";
-import bloom from "@/assets/work-bloom.jpg";
-import atlas from "@/assets/work-atlas.jpg";
-import copperKettle from "@/assets/work-copperkettle.jpg";
-import fieldNotes from "@/assets/work-fieldnotes.jpg";
-
 export type Project = {
   title: string;
   clientType: string;
-  platform: "WordPress" | "WooCommerce" | "Shopify" | "Wix" | "Squarespace";
   summary: string;
-  image: string;
-  result: string;
+  website: string;
 };
 
 export const projects: Project[] = [
   {
-    title: "Meridian Consulting",
-    clientType: "Business consultancy",
-    platform: "WordPress",
+    title: "Cohort Tuition",
+    clientType: "Education · Tutoring",
     summary:
-      "A custom WordPress theme with editable case studies and a lead-focused layout for a strategy consultancy.",
-    image: meridian,
-    result: "+58% enquiries in 3 months",
+      "A welcoming tuition website for families, highlighting tailored learning, experienced tutors and free consultations.",
+    website: "https://www.cohorttuition.co.uk/",
   },
   {
-    title: "Haven & Hearth",
-    clientType: "Home goods store",
-    platform: "WooCommerce",
+    title: "Wellthy Soul",
+    clientType: "Wellness · Coaching",
     summary:
-      "A WooCommerce storefront with curated collections, simplified checkout and inventory the owner manages herself.",
-    image: haven,
-    result: "2.1× online revenue in 6 months",
+      "A wellness and nutrition website presenting programs, mindful living resources and support for women’s health.",
+    website: "https://www.wellthysoul.com/",
   },
   {
-    title: "Bloom Coaching",
-    clientType: "Life coach",
-    platform: "WordPress",
+    title: "Supplies Control",
+    clientType: "Business · Procurement",
     summary:
-      "A serene WordPress site with a booking flow, email capture and a blog the coach updates without help.",
-    image: bloom,
-    result: "120+ discovery calls booked",
+      "A clear business platform website focused on purchasing efficiency, spend visibility and supply control.",
+    website: "https://suppliescontrol.co.uk/",
   },
   {
-    title: "Atlas Apparel",
-    clientType: "Fashion brand",
-    platform: "Shopify",
+    title: "North East Psychiatry",
+    clientType: "Healthcare · Psychiatry",
     summary:
-      "A Shopify build with a fast product page, lookbook sections and Shopify Payments configured end to end.",
-    image: atlas,
-    result: "1.9s average page load",
+      "A reassuring mental healthcare website introducing personalized psychiatric support and confidential appointments.",
+    website: "https://northeastpsychiatry.com/",
   },
   {
-    title: "Copper Kettle Café",
-    clientType: "Neighborhood café",
-    platform: "Wix",
+    title: "Vecta Healthcare",
+    clientType: "Healthcare · Patient transport",
     summary:
-      "A warm Wix site with menus, online ordering links and local SEO so regulars find it first on Google Maps.",
-    image: copperKettle,
-    result: "Top 3 local map ranking",
+      "A service-led website making private patient transport and event medical cover easier to understand and book.",
+    website: "https://vectahealthcare.co.uk/",
   },
   {
-    title: "Field Notes Journal",
-    clientType: "Travel writer",
-    platform: "Squarespace",
+    title: "Robert Austrian",
+    clientType: "Professional services · Law",
     summary:
-      "An editorial Squarespace blog with a custom article layout and a subscriber newsletter wired up.",
-    image: fieldNotes,
-    result: "900+ newsletter subscribers",
+      "A professional law firm website explaining personal injury services and helping prospective clients get in touch.",
+    website: "https://robertaustrian.com/",
+  },
+  {
+    title: "CFL Custom Carpentry",
+    clientType: "Home · Custom carpentry",
+    summary:
+      "A polished showcase for custom interior woodwork, with project-focused messaging and consultation calls to action.",
+    website: "https://cflcustomcarpentry.com/",
+  },
+  {
+    title: "PickPack Fulfilment",
+    clientType: "E-commerce · Fulfilment",
+    summary:
+      "A fulfilment services website introducing flexible pick-and-pack support for growing e-commerce businesses.",
+    website: "https://pickpackfulfilment.co.uk/",
   },
 ];
 

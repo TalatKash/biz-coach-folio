@@ -8,13 +8,13 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "WordPress and WooCommerce development, business and coaching sites, and stores on Shopify, Wix and Squarespace — by freelance frontend developer Talat Shakil.",
+          "WordPress and WooCommerce development, AI-assisted website design with Lovable and Claude, and business websites by freelance frontend developer Talat Shakil.",
       },
       { property: "og:title", content: "Services — WebForge" },
       {
         property: "og:description",
         content:
-          "WordPress and WooCommerce development, business and coaching sites, and stores on Shopify, Wix and Squarespace.",
+          "WordPress and WooCommerce development, AI-assisted website design with Lovable and Claude, and small-business websites.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -27,10 +27,11 @@ const services = [
   {
     title: "WordPress Development",
     flagship: true,
-    desc: "My specialty. Custom, fast WordPress builds — no bloated page builders, just clean code you can maintain.",
+    desc: "My specialty. Custom WordPress builds designed with AI-assisted workflows using Lovable and Claude, then refined for a polished, maintainable site.",
     points: [
       "Custom theme or lightweight block theme",
       "Gutenberg blocks tailored to your content",
+      "AI-assisted concepts and design workflows with Lovable and Claude",
       "Blog, portfolio and booking setups",
       "Speed optimization and security hardening",
     ],
