@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import heroWorkspace from "@/assets/hero-workspace.jpg";
-import { projects, platforms } from "@/lib/projects";
+import { platforms, projects } from "@/lib/projects";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Freelance web development for consultants, coaches and small businesses. WordPress and WooCommerce specialty, plus Shopify, Wix and Squarespace.",
+          "Talat Shakil builds WordPress and WooCommerce websites with AI-assisted design workflows using Lovable and Claude, alongside eight live client projects.",
       },
       {
         property: "og:title",
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Freelance web development for consultants, coaches and small businesses — WordPress, WooCommerce, Shopify, Wix and Squarespace.",
+          "WordPress and WooCommerce websites, AI-assisted design with Lovable and Claude, and real-world client projects by Talat Shakil.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -134,11 +134,11 @@ function Index() {
             All services →
           </Link>
         </div>
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
           {[
             {
               title: "WordPress & WooCommerce",
-              desc: "Custom themes, fast builds and online stores you can run yourself. My core specialty, end to end.",
+              desc: "Custom themes, fast builds and stores you can manage yourself, with AI-assisted design workflows using Lovable and Claude.",
             },
             {
               title: "Sites for people-first businesses",
@@ -182,29 +182,33 @@ function Index() {
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {projects.slice(0, 3).map((p) => (
-              <Link
+              <a
                 key={p.title}
-                to="/portfolio"
+                href={p.website}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`Visit ${p.title} website (opens in a new tab)`}
                 className="group overflow-hidden rounded-xl border border-border/70 bg-card shadow-soft transition-shadow hover:shadow-lift"
               >
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-[4/3] overflow-hidden bg-card">
                   <img
                     src={p.image}
-                    alt={`${p.title} website`}
+                    alt={`${p.title} website preview`}
                     width={1280}
-                    height={1024}
+                    height={800}
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
+                  <span className="absolute bottom-4 right-4 flex h-9 w-9 items-center justify-center rounded-full bg-background text-primary shadow-soft transition-transform group-hover:translate-x-1" aria-hidden="true">↗</span>
                 </div>
                 <div className="p-5">
                   <p className="text-xs font-semibold uppercase tracking-widest text-clay">
-                    {p.platform}
+                    {p.clientType}
                   </p>
                   <h3 className="mt-1.5 font-bold">{p.title}</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">{p.clientType}</p>
+                  <p className="mt-1 text-sm text-muted-foreground">{p.summary}</p>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
           <Link to="/portfolio" className="mt-6 inline-block text-sm font-semibold text-primary sm:hidden">
@@ -231,18 +235,6 @@ function Index() {
             </div>
           ))}
         </div>
-      </section>
-
-      {/* Testimonial */}
-      <section className="mx-auto max-w-3xl px-5 pb-20 text-center sm:px-8">
-        <blockquote>
-          <p className="font-serif text-2xl italic leading-relaxed text-foreground">
-            "Talat rebuilt our WooCommerce store in three weeks. Checkout is
-            simpler, sales are up, and I haven't needed to call him once."
-          </p>
-        </blockquote>
-        <p className="mt-5 text-sm font-semibold">Ayesha K.</p>
-        <p className="text-xs text-muted-foreground">Owner, Haven & Hearth</p>
       </section>
 
       {/* CTA */}

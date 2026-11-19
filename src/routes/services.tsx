@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { platforms } from "@/lib/projects";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
