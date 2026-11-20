@@ -1,11 +1,11 @@
-import cohortTuition from "@/assets/work-cohort-tuition.webp.asset.json";
-import wellthySoul from "@/assets/work-wellthy-soul.webp.asset.json";
-import suppliesControl from "@/assets/work-supplies-control.webp.asset.json";
-import northEastPsychiatry from "@/assets/work-north-east-psychiatry.webp.asset.json";
-import vectaHealthcare from "@/assets/work-vecta-healthcare.webp.asset.json";
-import robertAustrian from "@/assets/work-robert-austrian.webp.asset.json";
-import cflCustomCarpentry from "@/assets/work-cfl-custom-carpentry.webp.asset.json";
-import pickpackFulfilment from "@/assets/work-pickpack-fulfilment.webp.asset.json";
+import cohortTuition from "@/assets/portfolio-cohort-tuition.png.asset.json";
+import wellthySoul from "@/assets/portfolio-wellthy-soul.png.asset.json";
+import suppliesControl from "@/assets/portfolio-supplies-control.png.asset.json";
+import northEastPsychiatry from "@/assets/portfolio-north-east-psychiatry.png.asset.json";
+import vectaHealthcare from "@/assets/portfolio-vecta-healthcare.png.asset.json";
+import robertAustrian from "@/assets/portfolio-robert-austrian.png.asset.json";
+import cflCustomCarpentry from "@/assets/portfolio-cfl-custom-carpentry.png.asset.json";
+import pickpackFulfilment from "@/assets/portfolio-pickpack-fulfilment.png.asset.json";
 
 export type Project = {
   title: string;
