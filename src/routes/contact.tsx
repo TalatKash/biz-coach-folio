@@ -52,7 +52,7 @@ export function Contact() {
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
                   Email
                 </p>
-                <p className="mt-1 font-semibold">hello@webforge.studio</p>
+                <p className="mt-1 font-semibold">hello@webintent.studio</p>
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
