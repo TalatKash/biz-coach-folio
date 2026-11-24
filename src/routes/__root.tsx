@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "WebForge — Freelance Web Development" },
+      { title: "WebIntent Studio — Freelance Web Development" },
       {
         name: "description",
         content:
-          "WebForge by Talat Shakil: calm, dependable websites for consultants, coaches and small businesses. WordPress and WooCommerce specialty, plus Shopify, Wix and Squarespace.",
+          "WebIntent Studio by Talat Shakil: calm, dependable websites for consultants, coaches and small businesses. WordPress and WooCommerce specialty, plus Shopify, Wix and Squarespace.",
       },
-      { property: "og:title", content: "WebForge — Freelance Web Development" },
+      { property: "og:title", content: "WebIntent Studio — Freelance Web Development" },
       {
         property: "og:description",
         content:

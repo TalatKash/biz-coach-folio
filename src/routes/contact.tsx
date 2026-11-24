@@ -4,17 +4,17 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — WebForge" },
+      { title: "Contact — WebIntent Studio" },
       {
         name: "description",
         content:
-          "Start a website project with WebForge. Tell Talat about your WordPress, WooCommerce, Shopify, Wix or Squarespace project and get a fixed quote within one business day.",
+          "Start a website project with WebIntent Studio. Tell Talat about your WordPress, WooCommerce, Shopify, Wix or Squarespace project and get a fixed quote within one business day.",
       },
-      { property: "og:title", content: "Contact — WebForge" },
+      { property: "og:title", content: "Contact — WebIntent Studio" },
       {
         property: "og:description",
         content:
-          "Start a website project with WebForge — get a fixed quote within one business day.",
+          "Start a website project with WebIntent Studio — get a fixed quote within one business day.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

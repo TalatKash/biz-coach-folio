@@ -4,13 +4,13 @@ import { projects } from "@/lib/projects";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — WebForge" },
+      { title: "Portfolio — WebIntent Studio" },
       {
         name: "description",
         content:
           "Selected live websites by Talat Shakil for education, wellness, healthcare, professional services, home services and e-commerce clients.",
       },
-      { property: "og:title", content: "Portfolio — WebForge" },
+      { property: "og:title", content: "Portfolio — WebIntent Studio" },
       {
         property: "og:description",
         content:

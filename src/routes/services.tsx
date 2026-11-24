@@ -3,13 +3,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — WebForge" },
+      { title: "Services — WebIntent Studio" },
       {
         name: "description",
         content:
           "WordPress and WooCommerce development, AI-assisted website design with Lovable and Claude, and business websites by freelance frontend developer Talat Shakil.",
       },
-      { property: "og:title", content: "Services — WebForge" },
+      { property: "og:title", content: "Services — WebIntent Studio" },
       {
         property: "og:description",
         content:

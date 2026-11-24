@@ -15,7 +15,7 @@ export function Logo({ className = "" }: { className?: string }) {
       to="/"
       className={`font-heading text-lg font-semibold tracking-tight text-foreground ${className}`}
     >
-      webforge<span className="text-clay">.</span>
+      webintent<span className="text-clay">.studio</span>
     </Link>
   );
 }
@@ -143,7 +143,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border/70">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-muted-foreground sm:flex-row sm:px-8">
-          <span>© 2026 WebForge · Talat Shakil. All rights reserved.</span>
+          <span>© 2026 WebIntent Studio · Talat Shakil. All rights reserved.</span>
           <span>Built with care, shipped on time.</span>
         </div>
       </div>

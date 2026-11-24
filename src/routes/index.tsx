@@ -6,7 +6,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "WebForge — Websites that quietly grow your business",
+        title: "webintent.studio — Websites that quietly grow your business",
       },
       {
         name: "description",
@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "WebForge — Websites that quietly grow your business",
+        content: "webintent.studio — Websites that quietly grow your business",
       },
       {
         property: "og:description",

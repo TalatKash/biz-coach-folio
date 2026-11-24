@@ -4,17 +4,17 @@ import aboutDesk from "@/assets/about-desk.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — WebForge" },
+      { title: "About — WebIntent Studio" },
       {
         name: "description",
         content:
-          "Meet Talat Shakil, the freelance frontend developer behind WebForge — WordPress and WooCommerce specialist serving consultants, coaches and small businesses.",
+          "Meet Talat Shakil, the freelance frontend developer behind WebIntent Studio — WordPress and WooCommerce specialist serving consultants, coaches and small businesses.",
       },
-      { property: "og:title", content: "About — WebForge" },
+      { property: "og:title", content: "About — WebIntent Studio" },
       {
         property: "og:description",
         content:
-          "Meet Talat Shakil, the freelance frontend developer behind WebForge — WordPress and WooCommerce specialist.",
+          "Meet Talat Shakil, the freelance frontend developer behind WebIntent Studio — WordPress and WooCommerce specialist.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -67,7 +67,7 @@ export function About() {
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
             <p>
               I'm Talat Shakil, a frontend web developer and the person behind
-              WebForge. For the past six years I've been building websites
+              WebIntent Studio. For the past six years I've been building websites
               freelance — mostly for business consultants, life coaches, small
               business owners and people who need a personal site or blog that
               actually earns its keep.
